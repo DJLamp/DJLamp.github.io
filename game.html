@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darek Lampkin's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Darek Lampkin's Website</h1>
+    </header>
+
+    <main>
+        <section id="game">
+            <h2>Guess the Number Game</h2>
+            <p>Guess a number between 1 and 100:</p>
+            <input type="number" id="guess" min="1" max="100" placeholder="Enter your guess">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
